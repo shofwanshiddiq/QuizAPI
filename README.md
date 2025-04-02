@@ -31,5 +31,34 @@ This is a RESTful API built using ASP.NET Core Web API for Harry Potter quizzes 
 | **POST**   | `/api/Question/GetAnswers`            | Get questions answer by question id                |
 | **GET**   | `/api/Question`            | Get all questions                      |
 | **GET**   | `/api/Question/{id}`            | Get question by ID                      |
-| **PUT**   | `/api/Question/{id}`            | update question data by ID                      |
-| **DELETE**   | `/api/Question/{id}`            | delete question data by ID                      |
+| **PUT**   | `/api/Question/{id}`            | Update question data by ID                      |
+| **DELETE**   | `/api/Question/{id}`            | Delete question data by ID                      |
+
+# Getting Started
+
+Follow these steps to set up the project:
+
+### 1. Download Repositories
+* Navigate to Directory
+```bash
+cd /path/to/your/directory
+```
+* Clone Repositories
+```bash
+git clone https://github.com/shofwanshiddiq/QuizAPI
+```
+
+### 2. Open the Project in Visual Studio
+* Select NetWebApi.sln > Open
+
+### 3. Set Up Connection
+* Go to file Web.config > Find tag <connectionString> > change all the data-source in every item to your local server
+
+### 4. Run the Project
+* Click on NewWebApi in Solution Explorer > Rebuild
+* Start the Project on IIS Express(Google Chrome)
+
+
+# Gallery
+
+<img src="https://github.com/user-attachments/assets/386a04c6-980f-4828-a6e9-df6cc33e0b26" alt="Image 1" style="width: 400px;">
